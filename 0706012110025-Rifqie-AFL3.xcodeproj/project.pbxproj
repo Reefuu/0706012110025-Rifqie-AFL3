@@ -15,6 +15,7 @@
 		42F4F34929E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F34829E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITests.swift */; };
 		42F4F34B29E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F34A29E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITestsLaunchTests.swift */; };
 		42F4F35829E4F04C005DE49F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F35729E4F04C005DE49F /* CircleImage.swift */; };
+		42F4F35A29E4F0D8005DE49F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F35929E4F0D8005DE49F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		42F4F34829E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110025_Rifqie_AFL3UITests.swift; sourceTree = "<group>"; };
 		42F4F34A29E4EC66005DE49F /* _706012110025_Rifqie_AFL3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _706012110025_Rifqie_AFL3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		42F4F35729E4F04C005DE49F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		42F4F35929E4F0D8005DE49F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				42F4F32D29E4EC64005DE49F /* _706012110025_Rifqie_AFL3App.swift */,
 				42F4F35729E4F04C005DE49F /* CircleImage.swift */,
+				42F4F35929E4F0D8005DE49F /* MapView.swift */,
 				42F4F32F29E4EC64005DE49F /* ContentView.swift */,
 				42F4F33129E4EC66005DE49F /* Assets.xcassets */,
 				42F4F33329E4EC66005DE49F /* Preview Content */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42F4F33029E4EC64005DE49F /* ContentView.swift in Sources */,
+				42F4F35A29E4F0D8005DE49F /* MapView.swift in Sources */,
 				42F4F32E29E4EC64005DE49F /* _706012110025_Rifqie_AFL3App.swift in Sources */,
 				42F4F35829E4F04C005DE49F /* CircleImage.swift in Sources */,
 			);
