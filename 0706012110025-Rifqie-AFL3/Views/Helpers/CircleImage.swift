@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// this is the image that will be called on landmarkdetail, it is just making the square image circular
 struct CircleImage: View {
     var image: Image
     

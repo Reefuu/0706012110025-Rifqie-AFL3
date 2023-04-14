@@ -7,6 +7,7 @@
 
 import CoreGraphics
 
+// this is the parameter of hexagon, each segment of the hexagon has different values of line, curve and control, it is all needed to be able to make a whole Hexagon shape
 struct HexagonParameters {
     struct Segment {
         let line: CGPoint

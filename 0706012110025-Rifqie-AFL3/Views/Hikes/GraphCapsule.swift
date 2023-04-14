@@ -7,6 +7,7 @@ A single line in the graph.
 
 import SwiftUI
 
+// this is the capsule that represents the data that will be called on HikeGraph
 struct GraphCapsule: View, Equatable {
     var index: Int
     var color: Color

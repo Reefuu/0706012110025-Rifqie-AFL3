@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+    //this makes the badge that consists of multiple rotatedbadgesymbol, this is the end result of the badge that also has a background in it
 struct Badge: View {
     var badgeSymbols: some View {
         ForEach(0..<8) { index in

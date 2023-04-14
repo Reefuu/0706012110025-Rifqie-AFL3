@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//this is called on LandmarkList to have specific row for each Landmarks, this is just to have the row that has favorites, name, and image
 struct LandmarkRow: View {
     var landmark: Landmark
     

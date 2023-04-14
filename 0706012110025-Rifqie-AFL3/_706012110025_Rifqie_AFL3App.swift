@@ -13,6 +13,7 @@ struct _706012110025_Rifqie_AFL3App: App {
     
     @StateObject private var modelData = ModelData()
 
+    //starts the app, and opening ContentView as its first screen
     var body: some Scene {
         WindowGroup {
             ContentView()

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//shows the list of the landmarks, where u can filter favorites only, and you can click on each landmark to go to that specific landmark page
 struct LandmarkList: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false

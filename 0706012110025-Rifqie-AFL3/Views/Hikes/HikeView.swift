@@ -7,6 +7,7 @@ A view displaying information about a hike, including an elevation graph.
 
 import SwiftUI
 
+//this keeps my code clean and lets me expand the custom transition that i made
 extension AnyTransition {
     static var moveAndFade: AnyTransition {
         .asymmetric(
@@ -16,6 +17,7 @@ extension AnyTransition {
     }
 }
 
+//this is the end result of every hike stuff combined, has our heartrate, elevation, pace, the name of trail we're hiking, and our distance. this has animation to open the details, and changing each graphs has animations aswell
 struct HikeView: View {
     var hike: Hike
     @State private var showDetail = true

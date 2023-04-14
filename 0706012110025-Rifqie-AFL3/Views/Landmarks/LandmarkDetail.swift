@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+
+//shows the detail of a landmark that you have clicked / chosen, gives you the map area, the image, the name, description, etc
 struct LandmarkDetail: View {
     @EnvironmentObject var modelData: ModelData
     var landmark: Landmark

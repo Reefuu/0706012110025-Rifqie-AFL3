@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//this makes a badgesymbol, that is essentially a triangle, but split into 2, where each part can be coded differently to change its shape
 struct BadgeSymbol: View {
     static let symbolColor = Color(red: 79.0 / 255, green: 79.0 / 255, blue: 191.0 / 255)
 

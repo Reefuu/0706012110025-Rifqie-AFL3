@@ -7,6 +7,7 @@ The elevation, heart rate, and pace of a hike plotted on a graph.
 
 import SwiftUI
 
+//this keeps my code clean and lets me expand the custom transition that i made
 extension Animation {
     static func ripple(index: Int) -> Animation {
         Animation.spring(dampingFraction: 0.5)
@@ -15,6 +16,7 @@ extension Animation {
     }
 }
 
+// this is the graphs, where you set each graph to different colors, and each data height, range, and max magnitude. for each graphs(elevation, heart rate, pace)
 struct HikeGraph: View {
     var hike: Hike
     var path: KeyPath<Hike.Observation, Range<Double>>

@@ -7,6 +7,7 @@ A view showing the details for a hike.
 
 import SwiftUI
 
+//this is each details of the graph combined so u can switch between which graph to show, and it only shows one graph at a time
 struct HikeDetail: View {
     let hike: Hike
     @State var dataToShow = \Hike.Observation.elevation

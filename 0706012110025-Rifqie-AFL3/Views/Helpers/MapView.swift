@@ -8,6 +8,7 @@
 import SwiftUI
 import MapKit
 
+//this is for the maps which will then be called on LandmarkDetail, it shows the location of the coordinate you have given it
 struct MapView: View {
     var coordinate: CLLocationCoordinate2D
     @State private var region = MKCoordinateRegion()

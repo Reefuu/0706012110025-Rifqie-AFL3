@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// this is just the button to see if the landmark is already on favorites or not, click to toggle the favorites, which then can be filtered on LandmarkList
 struct FavoriteButton: View {
     @Binding var isSet: Bool
 

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// this is just a hexagon shape that has its color filled with gradients, to act as a background for the badgesymbol
 struct BadgeBackground: View {
     var body: some View {
         GeometryReader { geometry in
