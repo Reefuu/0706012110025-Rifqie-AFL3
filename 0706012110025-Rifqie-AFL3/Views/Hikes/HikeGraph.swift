@@ -67,7 +67,7 @@ func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
 }
 
 func magnitude(of range: Range<Double>) -> Double {
-    range.upperBound - range.lowerBound
+    range.upperBound - range.lowerBound 
 }
 
 struct HikeGraph_Previews: PreviewProvider {
