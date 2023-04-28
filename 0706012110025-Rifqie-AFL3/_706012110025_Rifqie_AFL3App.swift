@@ -23,5 +23,10 @@ struct _706012110025_Rifqie_AFL3App: App {
         .commands {
                     LandmarkCommands()
                 }
+       #if os(macOS)
+       Settings {
+           LandmarkSettings()
+       }
+       #endif
     }
 }
