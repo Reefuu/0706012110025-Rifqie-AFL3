@@ -20,5 +20,8 @@ struct _706012110025_Rifqie_AFL3App: App {
                 .environmentObject(modelData)
 
         }
+        .commands {
+                    LandmarkCommands()
+                }
     }
 }
