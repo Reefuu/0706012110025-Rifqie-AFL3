@@ -208,10 +208,10 @@
 			children = (
 				4270240B29FB4EB900EFBD52 /* ContentView.swift */,
 				4270242329FB514500EFBD52 /* LandmarkDetail.swift */,
+				4270242529FB59CF00EFBD52 /* LandmarkCommands.swift */,
 				4270240D29FB4EBB00EFBD52 /* Assets.xcassets */,
 				4270241229FB4EBB00EFBD52 /* MacLandmarks.entitlements */,
 				4270240F29FB4EBB00EFBD52 /* Preview Content */,
-				4270242529FB59CF00EFBD52 /* LandmarkCommands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
