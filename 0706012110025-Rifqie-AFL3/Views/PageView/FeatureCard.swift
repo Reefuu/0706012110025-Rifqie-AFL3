@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// the card for each featured places
 struct FeatureCard: View {
     var landmark: Landmark
     
@@ -20,6 +21,7 @@ struct FeatureCard: View {
     }
 }
 
+//the text that appears on top of the card
 struct TextOverlay: View {
     var landmark: Landmark
     

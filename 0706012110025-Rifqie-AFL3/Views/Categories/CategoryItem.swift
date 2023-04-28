@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//each single item inside a row
 struct CategoryItem: View {
     var landmark: Landmark
 

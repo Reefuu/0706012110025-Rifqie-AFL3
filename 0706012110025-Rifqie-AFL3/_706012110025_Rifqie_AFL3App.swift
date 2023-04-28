@@ -8,6 +8,7 @@
 import SwiftUI
 
 
+
 @main
 struct _706012110025_Rifqie_AFL3App: App {
     

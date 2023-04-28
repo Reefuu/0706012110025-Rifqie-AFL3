@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// the summary of your hikes
 struct ProfileSummary: View {
     @EnvironmentObject var modelData: ModelData
     var profile: Profile

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//shows your profile screen
 struct ProfileHost: View {
     @Environment(\.editMode) var editMode
     @EnvironmentObject var modelData: ModelData

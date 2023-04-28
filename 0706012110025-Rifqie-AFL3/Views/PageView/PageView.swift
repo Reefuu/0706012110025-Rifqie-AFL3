@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//For the featured places that will be able to be scrolled and seen between 3 places
 struct PageView<Page: View>: View {
     var pages: [Page]
     @State private var currentPage = 1

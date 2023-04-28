@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 
+//Keeps the number of featured and updates it based on it
 struct PageControl: UIViewRepresentable {
     var numberOfPages: Int
     @Binding var currentPage: Int

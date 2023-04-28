@@ -8,6 +8,7 @@
 import SwiftUI
 import UIKit
 
+//Controller for the PageView file
 struct PageViewController<Page: View>: UIViewControllerRepresentable {
     var pages: [Page]
     @Binding var currentPage: Int

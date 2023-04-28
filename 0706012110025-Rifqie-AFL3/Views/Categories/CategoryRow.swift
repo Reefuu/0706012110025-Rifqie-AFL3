@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// shows the rows of each category
 struct CategoryRow: View {
     var categoryName: String
     var items: [Landmark]

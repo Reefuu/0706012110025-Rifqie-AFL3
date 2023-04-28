@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//landmark commands that appears at the top of the screen
 struct LandmarkCommands: Commands {
     @FocusedBinding(\.selectedLandmark) var selectedLandmark
 

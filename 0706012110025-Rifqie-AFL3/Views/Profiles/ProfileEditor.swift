@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// editor for your profile
 struct ProfileEditor: View {
     @Binding var profile: Profile
     

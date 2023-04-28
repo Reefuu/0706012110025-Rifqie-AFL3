@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+//shows the category(featured)Home page
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showingProfile = false
